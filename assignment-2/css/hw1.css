@@ -1,0 +1,118 @@
+body{
+    margin: 20px;
+    padding: 5px;
+}
+
+
+header{
+    background-color: #bebebe;
+    background-image: url(/Users/yashs/Downloads/assignment-1/assignment-2/css/flywheel.png);
+    background-size: 100%;
+    padding: 1%;
+}
+
+h1{
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+h2{
+    color:#db0707;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: large;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    background-color: #bebebe;
+    color: #000000;
+    display: inline-block;
+    padding: 1%;
+    margin: 2%;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.active{
+    background: #e42525;
+}
+
+.left{
+    background: #0ac0e0;
+    width: 24%;
+    float: left;
+    padding: 5% 0;
+}
+
+.left img{
+    border: solid 2px #000000;
+    width: 80%;
+    margin: 2%;
+    display: inline-block
+}
+
+.right{
+    width: 74%;
+    display: inline-block;
+    padding-left: 2%;
+
+}
+table{
+    background-color: #000000;
+    margin-left: 17%;
+    line-height: 45px;
+    width: 60%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+th{
+    border: #08b308 2px solid;
+    background-color: rgb(6, 74, 134);
+    background-image: url(https://previews.123rf.com/images/ixixfreedom/ixixfreedom1801/ixixfreedom180100006/92799036-blue-green-glass-table-texture-and-background.jpg);
+    line-height: 60px;
+    background-size: 100%;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    opacity: 1;
+}
+td:first-child{
+    text-align: left;
+    padding-left: 7px;
+}
+
+td:nth-child(2){
+    text-align: center;       /*Not required if text-align is set to center in table*/
+}
+
+td:last-child{
+    text-align: center;        /*Not required if text-align is set to center in table*/
+}
+
+tr{
+    opacity: 0.8;
+}
+tr:hover{
+    opacity: 1;
+}
+td{
+    border: rgb(255, 255, 255) solid 1px;
+    color: aqua;
+    transition-property: all ;
+    transition-duration: 0s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+td:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
